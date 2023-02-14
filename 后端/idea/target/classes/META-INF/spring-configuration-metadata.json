@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "bookshop.jwt",
+      "type": "cn.ccsu.bookshop.utils.JwtUtils",
+      "sourceType": "cn.ccsu.bookshop.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bookshop.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "cn.ccsu.bookshop.utils.JwtUtils"
+    },
+    {
+      "name": "bookshop.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "cn.ccsu.bookshop.utils.JwtUtils"
+    },
+    {
+      "name": "bookshop.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "cn.ccsu.bookshop.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}
